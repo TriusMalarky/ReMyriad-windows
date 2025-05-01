@@ -1,0 +1,18 @@
+ - 1: ATK/DEF Display
+1.1) Moved DEF value left anchor to the right to reduce max. chars. to 5
+1.2) Moved ATK value left anchor to the right significantly, it overflowed past the "ATK" icon
+1.3) Changed ATK and DEF input to spinwheels with increments of 100.
+ - 2: Type Line
+2.1) Cards without supertypes are labeled "Normal" in the type box.
+2.2) All card types, except Spell and Trap, include "Monster" in their type box. 
+2.3) Found and resolved a crashing issue when attempting to set the third Trap type. 
+2.4) Spells and Traps now have access to tribal types.
+2.5) Type line correctly sets font color to white when cardtype is overlay or discord
+2.6) Shifted typeline left boundary to the right a few pixels
+ - 3: Name and Level
+ 3.1) Cardname correctly changes default font color when cardtype is overlay or discord
+ 3.2) Removed level color variations for non-discord, non-overlay monsters.
+ 3.3) Thickened level outline
+ 3.4) Fixed Name Squishening
+ 3.5) Fixed name being all wonky vertically
+ 3.6) Discord types have a "-" in front of their level.
